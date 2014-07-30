@@ -1,0 +1,18 @@
+# Site settings
+title: Framerjs Demo Site
+email: patrick.marsceill@gmail.com
+description: ""
+baseurl: ""
+url: "http://github.com/pmarsceill"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.sublime-project'
+  - 'LICENSE'
+  - 'package.json'
+  - 'README.md'
+  - 'Gruntfile'

@@ -1,0 +1,48 @@
+* {
+  margin:0;
+  padding:0;
+  border:none;
+  -webkit-user-select:none;
+}
+
+body {
+  /*background: black url('/a/i/background.png')
+    repeat scroll top left;*/
+  font: 28px/1em "Helvetica";
+  color: #FFF;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+a {
+  color: #bfbfbf;
+}
+
+.code-wrap {
+  width: 600px;
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  font-size: .5em;
+  z-index: 999;
+  overflow: scroll;
+  line-height: 1.5em;
+
+}
+.highlight {
+  width: 1000px;
+  padding: 1em;
+  position: absolute;
+  height: 100%;
+}
+pre {
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+#FramerRoot {
+  padding-left: 300px;
+}
+
