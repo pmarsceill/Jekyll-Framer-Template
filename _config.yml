@@ -16,3 +16,4 @@ exclude:
   - 'package.json'
   - 'README.md'
   - 'Gruntfile'
+  - 'node_modules'
