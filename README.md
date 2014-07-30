@@ -1,6 +1,10 @@
 Framerjs Jekyll Demo Shell
 ==========================
 
+This project will create a static site used to demo Framerjs projects. An example is available here:
+
+http://pmarsceill.github.io/Jekyll-Framer-Template/
+
 ## Prerequisites
 
 To use this project you must have a working version of Ruby and Node installed. For more information on installing these on your machine checkout:
