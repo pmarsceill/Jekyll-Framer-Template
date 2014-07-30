@@ -3,7 +3,7 @@ title: Framerjs Demo Site
 email: patrick.marsceill@gmail.com
 description: ""
 baseurl: ""
-url: "http://github.com/pmarsceill"
+url: "http://pmarsceill.github.io/Jekyll-Framer-Template/"
 
 # Build settings
 markdown: kramdown

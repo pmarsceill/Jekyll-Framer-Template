@@ -1,5 +1,4 @@
 module.exports = function(grunt) {
-
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     watch: {
@@ -32,13 +31,12 @@ module.exports = function(grunt) {
         }
       }
     }
-
   });
 
-require('load-grunt-tasks')(grunt);
+  require('load-grunt-tasks')(grunt);
 
-grunt.registerTask('default', ['coffee','jekyll:dev','watch']);
+  grunt.registerTask('default', ['coffee','jekyll:dev','watch']);
 
-grunt.registerTask('serve', ['coffee','jekyll:server']);
+  grunt.registerTask('serve', ['coffee','jekyll:server']);
 
 };

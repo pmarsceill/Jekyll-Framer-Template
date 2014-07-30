@@ -2,10 +2,12 @@
   "name": "framer-jeykll-template",
   "version": "0.1.0",
   "devDependencies": {
+  	"load-grunt-tasks": "0.6.0",
+    "connect-livereload": "^0.4.0",
     "grunt": "~0.4.2",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-shell": "~0.6.4",
     "grunt-contrib-coffee": "~0.10.1",
-    "grunt-jekyll": "~0.4.2"
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-jekyll": "~0.4.2",
+    "grunt-shell": "~0.6.4"
   }
 }
