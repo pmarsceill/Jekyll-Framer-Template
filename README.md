@@ -5,8 +5,8 @@ Framerjs Jekyll Demo Shell
 
 To use this project you must have a working version of Ruby and Node installed. For more information on installing these on your machine checkout:
 
-* Ruby Version Manager
-* Node
+* [Ruby Version Manager](https://rvm.io/)
+* [Node.js](http://nodejs.org/)
 
 ## Usage
 
