@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Framerjs Demo Site &mdash; Framerjs Demo</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="">
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="a/i/apple-touch-icon-144x144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="a/i/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="a/i/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="a/i/apple-touch-icon-precomposed.png">
+
+  <link rel="canonical" href="http://github.com/pmarsceill/">
+  <link rel="stylesheet" href="/a/c/solarized-dark.css">
+  <link rel="stylesheet" href="/a/c/screen.css">
+  <script src="a/j/framer.js"></script>
+  <script src="app.js"></script>
+</head>
+
+    <body>
+
+    <div class="code-wrap">
+<div class="highlight"><pre><code class="coffeescript"><span class="c1"># Welcome to Framer</span>
+<span class="c1"># Test</span>
+<span class="c1"># This is all CoffeeScript. Learn here: http://framerjs.com/learn.html#coffeescript</span>
+
+<span class="c1"># Drop an image on the preview screen to create an image layer, or use the generator to import assets from Sketch or Photoshop</span>
+
+<span class="nv">imageLayer = </span><span class="k">new</span> <span class="nx">Layer</span> <span class="nx">x</span><span class="o">:</span><span class="mi">0</span><span class="p">,</span> <span class="nx">y</span><span class="o">:</span><span class="mi">0</span><span class="p">,</span> <span class="nx">width</span><span class="o">:</span><span class="mi">128</span><span class="p">,</span> <span class="nx">height</span><span class="o">:</span><span class="mi">128</span><span class="p">,</span> <span class="nx">image</span><span class="o">:</span><span class="s">&quot;images/framer-icon.png&quot;</span>
+<span class="nx">imageLayer</span><span class="p">.</span><span class="nx">center</span><span class="p">()</span>
+
+<span class="c1"># Define a set of states with names (the original state is &#39;default&#39;)</span>
+<span class="nx">imageLayer</span><span class="p">.</span><span class="nx">states</span><span class="p">.</span><span class="nx">add</span>
+	<span class="nv">second: </span><span class="p">{</span><span class="nx">y</span><span class="o">:</span><span class="mi">100</span><span class="p">,</span> <span class="nx">scale</span><span class="o">:</span><span class="mf">0.6</span><span class="p">,</span> <span class="nx">rotationZ</span><span class="o">:</span><span class="mi">100</span><span class="p">}</span>
+	<span class="nv">third: </span> <span class="p">{</span><span class="nx">y</span><span class="o">:</span><span class="mi">300</span><span class="p">,</span> <span class="nx">scale</span><span class="o">:</span><span class="mf">1.3</span><span class="p">,</span> <span class="nx">blur</span><span class="o">:</span><span class="mi">4</span><span class="p">}</span>
+	<span class="nv">fourth:	</span><span class="p">{</span><span class="nx">y</span><span class="o">:</span><span class="mi">200</span><span class="p">,</span> <span class="nx">scale</span><span class="o">:</span><span class="mf">0.9</span><span class="p">,</span> <span class="nx">blur</span><span class="o">:</span><span class="mi">2</span><span class="p">,</span> <span class="nx">rotationZ</span><span class="o">:</span><span class="mi">200</span><span class="p">}</span>
+
+<span class="c1"># Set the default animation options</span>
+<span class="nv">imageLayer.states.animationOptions =</span>
+	<span class="nv">curve: </span><span class="s">&quot;spring(500,12,0)&quot;</span>
+
+<span class="c1"># On a click, go to the next state</span>
+<span class="nx">imageLayer</span><span class="p">.</span><span class="nx">on</span> <span class="nx">Events</span><span class="p">.</span><span class="nx">Click</span><span class="p">,</span> <span class="nf">-&gt;</span>
+	<span class="nx">imageLayer</span><span class="p">.</span><span class="nx">states</span><span class="p">.</span><span class="nx">next</span><span class="p">()</span></code></pre></div>
+</div>
+
+
+    </body>
+</html>
