@@ -2,7 +2,6 @@
   margin:0;
   padding:0;
   border:none;
-  -webkit-user-select:none;
 }
 
 body {
@@ -18,7 +17,7 @@ a {
 }
 
 .code-wrap {
-  width: 600px;
+  width: 45%;
   position: absolute;
   height: 100%;
   left: 0;
@@ -30,10 +29,9 @@ a {
 
 }
 .highlight {
-  width: 1000px;
-  padding: 1em;
   position: absolute;
   height: 100%;
+  width: 100%;
 }
 pre {
   white-space: pre-wrap;       /* css-3 */
@@ -41,8 +39,12 @@ pre {
   white-space: -pre-wrap;      /* Opera 4-6 */
   white-space: -o-pre-wrap;    /* Opera 7 */
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  -webkit-user-select: text;
+  padding: 1em;
 }
 #FramerRoot {
-  padding-left: 300px;
+  width: 55% !important;
+  left: 45%;
+  padding-left: 22.5%;
+  -webkit-user-select: none;
 }
-
