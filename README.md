@@ -1,5 +1,5 @@
-Framerjs Jekyll Demo Shell
-==========================
+Framerjs Jekyll Demo Template
+=============================
 
 This project will create a static site used to demo Framerjs projects. An example is available here:
 
