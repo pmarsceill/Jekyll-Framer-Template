@@ -24,12 +24,12 @@ After cloning / downloading:
 
 The default `grunt` task will do the following:
 
-1. Import compile the `app.coffee` file into `app.js`
-2. Render the contents of `app.coffee` into the index.html file and hightlight the syntax
-3. Compile the site into static html, css, and js into the `_site` directory
+1. Compile the `app.coffee` file into `app.js`
+2. Render the text contencts of `app.coffee` into the `index.html` file as code and hightlight the syntax
+3. Compile the site into static `.html`, `.css`, and `.js` into the `_site` directory
 4. Watch for changes to `*.coffee`, `*.html`, `*.css` files and re-run steps 1-3 if changes are detected
 
-If you wish to spin up a local webserver run the `$ grunt serve` command and a local webserver will start on `localhost:4000` with this project as it's root. This task will not watch for changes, but simply serve what has already been compiled. If you wish to setup your own custom webserver for editing purposes, it is recommended that you run `$ grunt` and then point your webserver (like MAMP or Anvil) to the `_site` directory.
+If you wish to spin up a local webserver run the `$ grunt serve` command and a local webserver will start on `localhost:8000` with this project as it's root. This task will not watch for changes, but simply serve what has already been compiled. If you wish to setup your own custom webserver for editing purposes, it is recommended that you run `$ grunt` and then point your webserver (like MAMP or Anvil) to the `_site` directory.
 
 ### Import your project
 
