@@ -1,7 +1,7 @@
-Framerjs Jekyll Demo Template
+Framer Studio Jekyll Template
 =============================
 
-This project will create a static site used to demo Framerjs projects. An example is available here:
+This project will create a static site used to demo Framer Studio projects. An example is available here:
 
 http://pmarsceill.github.io/Jekyll-Framer-Template/
 
